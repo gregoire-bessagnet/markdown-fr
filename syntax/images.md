@@ -8,28 +8,29 @@
 ![Alternative text][id]
 [id]: url/to/image  "Optional title"
 ```
-Comme vous avez dû le remarquer, les images en Markdown sont très semblables aux liens.  
+Comme vous avez dû le remarquer, les images en Markdown sont très semblables aux liens.
 La différence est la suivante :
 * les crochets doivent être précédés par un point d'exclamation ;
 * ils peuvent contenir un texte alternatif, qui s'affiche quand l'image ne peut être chargée.
 
 ---
 
-Here's a quiz about markdown images.
+Voici un quizz sur les images avec Markdown.
 
-Select the valid images:
-- [ ] `[Google logo](https://www.google.ru/logo.png)`
+Choisissez les bonnes images :
+
+- [ ] `[Logo de Google](https://www.google.ru/logo.png)`
 - [x] `![](https://www.google.ru/logo.png)`
 
-> Images must be prefixed with an exclamation mark.
-The alternative text and a title are optional.
+> Les images doivent être précédées d'un point d'exclamation.
+Le texte alternatif et le titre sont optionnels.
 
-What is true about the following line: ```![Funny cat](http://cats.ru/funny.png "Share this")```
-- [x] if the url is 404, "Funny cat" will be displayed
-- [ ] exclamation mark can be omitted in this case
-- [ ] if the url is 404, "Share this" will be displayed
-- [x] on mouse over the image "Share this" will be displayed
+Qu'est-ce qui est vrai dans les affirmation suivantes: ```![Chat rigolo](http://cats.ru/funny.png "Partage ca")```
+- [x] si l'URL est 404, "Chat Rigolo" sera affiché
+- [ ] le point d'exclamation peut êre omis dans ce cas
+- [ ] si l'URL est 404, "Partage ça" sera affiché
+- [x] au survol de la souris, l'image "Partage ça" sera affichée
 
-> Similarly to links, images can have 3 parts: the alternative text, the url and a title. An exclamation mark is nesessary.
+> Comme pour les liens, les images peuvent avoir 3 parties : le texte alternatif, l'URL et un titre. Un point d'exclamation est nécessaire.
 
 ---
